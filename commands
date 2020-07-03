@@ -5,3 +5,8 @@
  sudo /usr/lib/rabbitmq/bin/rabbitmqctl cluster_status
 sudo /usr/lib/rabbitmq/bin/rabbitmqctl list_queues
 
+sudo /usr/lib/rabbitmq/bin/rabbitmq-plugins list
+sudo /usr/lib/rabbitmq/bin/rabbitmq-plugins enable rabbitmq_management
+
+
+
